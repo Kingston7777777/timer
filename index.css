@@ -1,5 +1,5 @@
 html{
-    background-color: yellow;
+    background-color: lightblue;
 }
 .timerBtn{
     width: 80px;
@@ -23,4 +23,105 @@ html{
     background-color: black;
     position: relative;
     top: 180px;
+}
+
+@media (max-width: 1200px){/*-Destop, Laptop-992,tablet-768,mobile-576*/
+    #div{
+        text-align: center;
+        border: 3px solid;
+        border-radius: 25px;
+        background-color: black;
+        position: relative;
+        top: 180px;
+    }
+    #timeDisplay{
+        font-size: 75px;
+        color: white;
+        font-family: consolas, monospace;
+    }
+    .timerBtn{
+        width: 80px;
+        height: 50px;
+        border: 3px solid;
+        border-radius: 12px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        font-family: consolas, monospace;
+    }
+}
+@media (max-width: 992px){/*et-768,le-576*/
+    #div{
+        text-align: center;
+        border: 2px solid;
+        border-radius: 20px;
+        background-color: black;
+        position: relative;
+        top: 180px;
+    }
+    #timeDisplay{
+        font-size: 70px;
+        color: white;
+        font-family: consolas, monospace;
+    }
+    .timerBtn{
+        width: 70px;
+        height: 40px;
+        border: 3px solid;
+        border-radius: 8px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        font-family: consolas, monospace;
+    }
+}
+@media (max-width: 768px){/*le-576*/
+    #div{
+        text-align: center;
+        border: 1px solid;
+        border-radius: 15px;
+        background-color: black;
+        position: relative;
+        top: 170px;
+    }
+    #timeDisplay{
+        font-size: 60px;
+        color: white;
+        font-family: consolas, monospace;
+    }
+    .timerBtn{
+        width: 60px;
+        height: 30px;
+        border: 3px solid;
+        border-radius: 6px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        font-family: consolas, monospace;
+    }
+}
+@media (max-width: 576px){
+    #div{
+        text-align: center;
+        border: 1px solid;
+        border-radius: 12px;
+        background-color: black;
+        position: relative;
+        top: 170px;
+    }
+    #timeDisplay{
+        font-size: 50px;
+        color: white;
+        font-family: consolas, monospace;
+    }
+    .timerBtn{
+        width: 50px;
+        height: 20px;
+        border: 2px solid;
+        border-radius: 4px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        font-family: consolas, monospace;
+    }
 }
