@@ -1,229 +1,315 @@
-#gameDiv{
-    font-family: 'Aerial', cursive;
-    border: 3px solid;
-    border-radius: 20px;
-    padding: 8px;
-    background-color: lightgrey;
-    text-align: center;
-}
-.choiceBtn{
-    line-height: 25px;
-    width: 240px;
-    border-radius: 30px;
-    cursor: pointer;
-    font-size: 15px;
-}
-#playerText{
-    color: blue;
-    font-size: 18px;
-}
-#computerText{
-    color: red;
-    font-size: 18px;
-}
-#resultText{
-    font-size: 18px;
-} 
 html{
+    background-color: lightblue;
+}
+.timerBtn{
+    width: 80px;
+    height: 30px;
+    border: 3px solid;
+    border-radius: 12px;
     background-color: black;
-    overflow: hidden;
+    color: white;
+    cursor: pointer;
+    font-family: consolas, monospace;
 }
-
-#title{
-	border:  1px solid;
-	width: 35vw;
-    height: 3vh;
-    font-size: 18px;
-	padding: 0px;
-	background-color: black;
-	border-color: white;
-	box-shadow: 10px 10px 5px black;
-	color: white;
-	text-shadow: 0px 0px 5px red, 0px -5px 5px yellow;
-	text-align: center;
-	position: relative;
-	left: 440px;
-	animation: payframe;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-	
+#timeDisplay{
+    font-size: 50px;
+    color: white;
+    font-family: consolas, monospace;
 }
-
-@keyframes payframe{
-	50% {transform: scale(0.5,0.5);}
+#div{
+    text-align: center;
+    border: 3px solid;
+    border-radius: 15px;
+    background-color: black;
+    position: relative;
+    top: 180px;
+    left: 180px;
+    width: 1000px;
 }
 @media (max-width: 775px){
-    #title{
-        width: 24vw;
-        padding: 5px;
-        position: relative;
-	    left: 110px;
-        font-size: 13px;
-        height: 2vh;
-    }
-    #gameDiv{
+    .timerBtn{
+        width: 70px;
+        height: 30px;
         border: 2px solid;
-        border-radius: 30px;
-        padding: 2px;
+        border-radius: 12px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        font-family: consolas, monospace;
+    }
+    #timeDisplay{
+        font-size: 40px;
+        color: white;
+        font-family: consolas, monospace;
+    }
+    #div{
+        text-align: center;
+        border: 3px solid;
+        border-radius: 10px;
+        background-color: black;
         position: relative;
-        right: 2px;
-        width: 70vw;
+        top: 180px;
+        left: 90px;
+        width: 500px;
     }
-    .choiceBtn{
-        line-height: 20px;
-        width: 130px;
-        font-size: 10px;
+}
+
+@media (max-width: 653px){
+    .timerBtn{
+        width: 60px;
+        height: 20px;
+        border: 2px solid;
+        border-radius: 12px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        font-family: consolas, monospace;
     }
-    #playerText{
-        color: blue;
-        font-size: 15px;
+    #timeDisplay{
+        font-size: 30px;
+        color: white;
+        font-family: consolas, monospace;
     }
-    #computerText{
-        color: red;
-        font-size: 15px;
+    #div{
+        text-align: center;
+        border: 3px solid;
+        border-radius: 10px;
+        background-color: black;
+        position: relative;
+        top: 180px;
+        left: 60px;
+        width: 470px;
     }
-    #resultText{
-        font-size: 15px;
-    }  
 }
 
 @media (max-width: 591px){
-    #title{
-        width: 30vw;
-        padding: 5px;
-        position: relative;
-	    left: 130px;
-        font-size: 14px;
-    }
-    #gameDiv{
+    .timerBtn{
+        width: 57px;
+        height: 20px;
         border: 2px solid;
         border-radius: 10px;
-        padding: 3px;
-        position: relative;
-        left: 2px;
-    }
-    .choiceBtn{
-        line-height: 15px;
-        width: 100px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        font-family: consolas, monospace;
         font-size: 10px;
     }
-    #playerText{
-        color: blue;
-        font-size: 12px;
+    #timeDisplay{
+        font-size: 20px;
+        color: white;
+        font-family: consolas, monospace;
     }
-    #computerText{
-        color: red;
-        font-size: 12px;
-    }
-    #resultText{
-        font-size: 12px;
-    }  
-}
-
-@media (max-width: 545px){
-    #title{
-        width: 35vw;
-        padding: 5px;
-        position: relative;
-	    left: 70px;
-        font-size: 12px;
-    }
-    #gameDiv{
-        border: 2px solid;
-        border-radius: 10px;
-        padding: 3px;
-        position: relative;
-        left: 2px;
-    }
-    .choiceBtn{
-        line-height: 13px;
-        width: 100px;
-        font-size: 8px;
-    }
-    #playerText{
-        color: blue;
-        font-size: 10px;
-    }
-    #computerText{
-        color: red;
-        font-size: 10px;
-    }
-    #resultText{
-        font-size: 10px;
-    }  
-}
-
-@media (max-width: 447px){
-    #title{
-        width: 23vw;
-        padding: 5px;
-        position: relative;
-	    left: 80px;
-        font-size: 8px;
-        height: 1vh;
-    }
-    #gameDiv{
+    #div{
+        text-align: center;
         border: 2px solid;
         border-radius: 7px;
-        padding: 3px;
+        background-color: black;
         position: relative;
-        left: 2px;
-    }
-    .choiceBtn{
-        line-height: 7px;
-        width: 65px;
-        font-size: 6px;
-    }
-    #playerText{
-        color: blue;
-        font-size: 7px;
-    }
-    #computerText{
-        color: red;
-        font-size: 7px;
-    }
-    #resultText{
-        font-size: 7px;
-    }  
-}
-
-@media (max-width: 404px){
-    #title{
-        visibility: hidden;
+        top: 180px;
+        left: 60px;
+        width: 400px;
     }
 }
 
-@media (max-width: 293px){
-    
-    #gameDiv{
+@media (max-width: 519px){
+    .timerBtn{
+        width: 47px;
+        height: 16px;
+        border: 2px solid;
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        font-family: consolas, monospace;
+        font-size: 7px;
+    }
+    #timeDisplay{
+        font-size: 10px;
+        color: white;
+        font-family: consolas, monospace;
+    }
+    #div{
+        text-align: center;
+        border: 2px solid;
+        border-radius: 7px;
+        background-color: black;
+        position: relative;
+        top: 180px;
+        left: 40px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 393px){
+    .timerBtn{
+        width: 45px;
+        height: 14px;
+        border: 2px solid;
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        font-family: consolas, monospace;
+        font-size: 5px;
+    }
+    #timeDisplay{
+        font-size: 7px;
+        color: white;
+        font-family: consolas, monospace;
+    }
+    #div{
+        text-align: center;
         border: 2px solid;
         border-radius: 5px;
-        padding: 2px;
+        background-color: black;
         position: relative;
-        left: 2px;
-    }
-    .choiceBtn{
-        line-height: 4px;
-        width: 50px;
-        font-size: 4px;
-    }
-    #playerText{
-        color: blue;
-        font-size: 5px;
-    }
-    #computerText{
-        color: red;
-        font-size: 5px;
-    }
-    #resultText{
-        font-size: 5px;
-    } 
-}
-
-@media (max-width: 629px) and (min-width: 592px){
-    #title{
-        visibility: hidden;
+        top: 180px;
+        left: 39px;
+        width: 250px;
     }
 }
 
+@media (max-width: 327px){
+    .timerBtn{
+        width: 43px;
+        height: 12px;
+        border: 2px solid;
+        border-radius: 7px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        font-family: consolas, monospace;
+        font-size: 3px;
+    }
+    #timeDisplay{
+        font-size: 5px;
+        color: white;
+        font-family: consolas, monospace;
+    }
+    #div{
+        text-align: center;
+        border: 2px solid;
+        border-radius: 3px;
+        background-color: black;
+        position: relative;
+        top: 180px;
+        left: 35px;
+        width: 200px;
+    }
+}
 
+@media (max-width: 263px){
+    .timerBtn{
+        width: 43px;
+        height: 12px;
+        border: 2px solid;
+        border-radius: 7px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        font-family: consolas, monospace;
+        font-size: 3px;
+    }
+    #timeDisplay{
+        font-size: 5px;
+        color: white;
+        font-family: consolas, monospace;
+    }
+    #div{
+        text-align: center;
+        border: 2px solid;
+        border-radius: 3px;
+        background-color: black;
+        position: relative;
+        top: 180px;
+        left: 25px;
+        width: 170px;
+    }
+}
+
+@media (max-width: 235px){
+    .timerBtn{
+        width: 43px;
+        height: 12px;
+        border: 2px solid;
+        border-radius: 7px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        font-family: consolas, monospace;
+        font-size: 3px;
+    }
+    #timeDisplay{
+        font-size: 5px;
+        color: white;
+        font-family: consolas, monospace;
+    }
+    #div{
+        text-align: center;
+        border: 2px solid;
+        border-radius: 3px;
+        background-color: black;
+        position: relative;
+        top: 180px;
+        left: 15px;
+        width: 170px;
+    }
+}
+
+@media (max-width: 213px){
+    .timerBtn{
+        width: 43px;
+        height: 12px;
+        border: 2px solid;
+        border-radius: 7px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        font-family: consolas, monospace;
+        font-size: 3px;
+    }
+    #timeDisplay{
+        font-size: 5px;
+        color: white;
+        font-family: consolas, monospace;
+    }
+    #div{
+        text-align: center;
+        border: 2px solid;
+        border-radius: 3px;
+        background-color: black;
+        position: relative;
+        top: 180px;
+        left: 6px;
+        width: 170px;
+    }
+}
+
+@media (max-width: 203px){
+    .timerBtn{
+        width: 33px;
+        height: 8px;
+        border: 2px solid;
+        border-radius: 4px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        font-family: consolas, monospace;
+        font-size: 2px;
+    }
+    #timeDisplay{
+        font-size: 3px;
+        color: white;
+        font-family: consolas, monospace;
+    }
+    #div{
+        text-align: center;
+        border: 2px solid;
+        border-radius: 3px;
+        background-color: black;
+        position: relative;
+        top: 180px;
+        left: 3px;
+        width: 140px;
+    }
+}
