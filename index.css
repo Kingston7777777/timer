@@ -1,0 +1,315 @@
+html{
+    background-color: lightblue;
+}
+.timerBtn{
+    width: 80px;
+    height: 30px;
+    border: 3px solid;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-family: consolas, monospace;
+}
+#timeDisplay{
+    font-size: 50px;
+    color: white;
+    font-family: consolas, monospace;
+}
+#div{
+    text-align: center;
+    border: 3px solid;
+    border-radius: 15px;
+    background-color: black;
+    position: relative;
+    top: 180px;
+    left: 180px;
+    width: 1000px;
+}
+@media (max-width: 775px){
+    .timerBtn{
+        width: 70px;
+        height: 30px;
+        border: 2px solid;
+        border-radius: 12px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        font-family: consolas, monospace;
+    }
+    #timeDisplay{
+        font-size: 40px;
+        color: white;
+        font-family: consolas, monospace;
+    }
+    #div{
+        text-align: center;
+        border: 3px solid;
+        border-radius: 10px;
+        background-color: black;
+        position: relative;
+        top: 180px;
+        left: 90px;
+        width: 500px;
+    }
+}
+
+@media (max-width: 653px){
+    .timerBtn{
+        width: 60px;
+        height: 20px;
+        border: 2px solid;
+        border-radius: 12px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        font-family: consolas, monospace;
+    }
+    #timeDisplay{
+        font-size: 30px;
+        color: white;
+        font-family: consolas, monospace;
+    }
+    #div{
+        text-align: center;
+        border: 3px solid;
+        border-radius: 10px;
+        background-color: black;
+        position: relative;
+        top: 180px;
+        left: 60px;
+        width: 470px;
+    }
+}
+
+@media (max-width: 591px){
+    .timerBtn{
+        width: 57px;
+        height: 20px;
+        border: 2px solid;
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        font-family: consolas, monospace;
+        font-size: 10px;
+    }
+    #timeDisplay{
+        font-size: 20px;
+        color: white;
+        font-family: consolas, monospace;
+    }
+    #div{
+        text-align: center;
+        border: 2px solid;
+        border-radius: 7px;
+        background-color: black;
+        position: relative;
+        top: 180px;
+        left: 60px;
+        width: 400px;
+    }
+}
+
+@media (max-width: 519px){
+    .timerBtn{
+        width: 47px;
+        height: 16px;
+        border: 2px solid;
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        font-family: consolas, monospace;
+        font-size: 7px;
+    }
+    #timeDisplay{
+        font-size: 10px;
+        color: white;
+        font-family: consolas, monospace;
+    }
+    #div{
+        text-align: center;
+        border: 2px solid;
+        border-radius: 7px;
+        background-color: black;
+        position: relative;
+        top: 180px;
+        left: 40px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 393px){
+    .timerBtn{
+        width: 45px;
+        height: 14px;
+        border: 2px solid;
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        font-family: consolas, monospace;
+        font-size: 5px;
+    }
+    #timeDisplay{
+        font-size: 7px;
+        color: white;
+        font-family: consolas, monospace;
+    }
+    #div{
+        text-align: center;
+        border: 2px solid;
+        border-radius: 5px;
+        background-color: black;
+        position: relative;
+        top: 180px;
+        left: 39px;
+        width: 250px;
+    }
+}
+
+@media (max-width: 327px){
+    .timerBtn{
+        width: 43px;
+        height: 12px;
+        border: 2px solid;
+        border-radius: 7px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        font-family: consolas, monospace;
+        font-size: 3px;
+    }
+    #timeDisplay{
+        font-size: 5px;
+        color: white;
+        font-family: consolas, monospace;
+    }
+    #div{
+        text-align: center;
+        border: 2px solid;
+        border-radius: 3px;
+        background-color: black;
+        position: relative;
+        top: 180px;
+        left: 35px;
+        width: 200px;
+    }
+}
+
+@media (max-width: 263px){
+    .timerBtn{
+        width: 43px;
+        height: 12px;
+        border: 2px solid;
+        border-radius: 7px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        font-family: consolas, monospace;
+        font-size: 3px;
+    }
+    #timeDisplay{
+        font-size: 5px;
+        color: white;
+        font-family: consolas, monospace;
+    }
+    #div{
+        text-align: center;
+        border: 2px solid;
+        border-radius: 3px;
+        background-color: black;
+        position: relative;
+        top: 180px;
+        left: 25px;
+        width: 170px;
+    }
+}
+
+@media (max-width: 235px){
+    .timerBtn{
+        width: 43px;
+        height: 12px;
+        border: 2px solid;
+        border-radius: 7px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        font-family: consolas, monospace;
+        font-size: 3px;
+    }
+    #timeDisplay{
+        font-size: 5px;
+        color: white;
+        font-family: consolas, monospace;
+    }
+    #div{
+        text-align: center;
+        border: 2px solid;
+        border-radius: 3px;
+        background-color: black;
+        position: relative;
+        top: 180px;
+        left: 15px;
+        width: 170px;
+    }
+}
+
+@media (max-width: 213px){
+    .timerBtn{
+        width: 43px;
+        height: 12px;
+        border: 2px solid;
+        border-radius: 7px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        font-family: consolas, monospace;
+        font-size: 3px;
+    }
+    #timeDisplay{
+        font-size: 5px;
+        color: white;
+        font-family: consolas, monospace;
+    }
+    #div{
+        text-align: center;
+        border: 2px solid;
+        border-radius: 3px;
+        background-color: black;
+        position: relative;
+        top: 180px;
+        left: 6px;
+        width: 170px;
+    }
+}
+
+@media (max-width: 203px){
+    .timerBtn{
+        width: 33px;
+        height: 8px;
+        border: 2px solid;
+        border-radius: 4px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        font-family: consolas, monospace;
+        font-size: 2px;
+    }
+    #timeDisplay{
+        font-size: 3px;
+        color: white;
+        font-family: consolas, monospace;
+    }
+    #div{
+        text-align: center;
+        border: 2px solid;
+        border-radius: 3px;
+        background-color: black;
+        position: relative;
+        top: 180px;
+        left: 3px;
+        width: 140px;
+    }
+}
